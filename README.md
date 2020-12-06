@@ -18,5 +18,7 @@
 
 1) We first make our bash file executable - "chmod +x fc"
 
-2) We then run the bash file with two arguments our sample code and output file name - "./fc trial.flip output.mp4"
+2) We then run the bash file with two arguments our sample code and output file name - "./fc trial.flip output.mp4" which then asks us for folder names in which our image files, after enter a video file is generated.
+
+
 
