@@ -1,4 +1,4 @@
-# flipbook_compiler
+# flipbook_compiler ( Work in Progress - video, examples flips, programming language documentations and more functionalities still pending)
 
 ## Files Description 
 
