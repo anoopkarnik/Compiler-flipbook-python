@@ -14,9 +14,9 @@
 
 6) *.flip = Files containing sample codes in our language
 
-Example Run: 
+## Example Run: 
 
-chmod +x fc 
+1) We first make our bash file executable - "chmod +x fc"
 
-./fc trial.flip output.mp4
+2) We then run the bash file with two arguments our sample code and output file name - "./fc trial.flip output.mp4"
 
