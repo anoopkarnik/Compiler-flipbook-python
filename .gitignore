@@ -1,0 +1,5 @@
+images/
+__pycache__
+*mp4
+.gitignore
+out.py
