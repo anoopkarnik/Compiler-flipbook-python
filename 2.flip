@@ -1,0 +1,4 @@
+PRINT "No of files :"
+INTINPUT files
+CREATE FILE files
+
