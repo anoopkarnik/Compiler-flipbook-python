@@ -5,7 +5,7 @@
 
 1) Please download files from below link with input images, submission video containing description of our programming language and demo and output flip videos we got - https://drive.google.com/drive/folders/1jqtHhJrx6IAH9Z1uT3svjtPDW2BHl2SV?usp=sharing
 2) Download python 3.6, create an environment and activate it.
-3) pip install -r requirments.txt
+3) pip install -r requirements.txt
 
 ## Files Description 
 
