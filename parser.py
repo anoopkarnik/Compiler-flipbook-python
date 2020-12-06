@@ -146,6 +146,7 @@ class Parser:
                 self.emitter.emitLine("for t in img_types:")
                 self.emitter.emitTab("")
                 self.emitter.emitLine("img_loc.extend(glob.glob("+self.curToken.text+"+\"/\"+t))")
+                self.emitter.emitLine("img_loc = list(sorted(img_loc))")
                 self.emitter.emitLine("for file in img_loc:")
                 self.emitter.emitTab("")
                 self.emitter.emitLine("img = cv2.imread(file)")
@@ -266,5 +267,4 @@ class Parser:
         else:
             # Error!
             self.abort("Unexpected token at " + self.curToken.text)
-
 
