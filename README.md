@@ -1,6 +1,6 @@
 # flipbook_compiler
 
-Example Run: \n
-chmod +x fc \n
+Example Run: 
+chmod +x fc 
 ./fc trial.flip output.mp4
 
