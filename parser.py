@@ -58,9 +58,9 @@ class Parser:
                 self.emitter.emitLine("print(" + self.curToken.text+")")
                 self.nextToken()
             else:
-                self.emitter.emit("print(\"{}\".format(float)(")
-                self.expression()
-                self.emitter.emitLine("))")
+                self.emitter.emitLine("print(\"{}\".format("+self.curToken.text+"))")
+                self.nextToken()
+
         # "IF" comparison "THEN" block "ENDIF"
         elif self.checkToken(TokenType.IF):
             self.nextToken()
@@ -133,6 +133,12 @@ class Parser:
             self.nextToken()
             self.emitter.emitLine(self.curToken.text +".append(input())" )
             self.nextToken()
+        elif self.checkToken((TokenType.LISTADD)):
+            self.nextToken()
+            List_var = self.curToken.text
+            self.nextToken()
+            self.emitter.emitLine(List_var+".append("+self.curToken.text+")")
+            self.nextToken()
         elif self.checkToken(TokenType.CREATE):
             self.nextToken()
             if self.curToken.text == 'FOLDER':
@@ -166,17 +172,18 @@ class Parser:
             elif self.curToken.text == 'FILE':
                 self.nextToken()
                 self.emitter.headerLine("import cv2")
-                self.emitter.headerLine("import glob")
                 self.emitter.headerLine("import sys")
                 self.emitter.emitLine("img_array = []")
-                self.emitter.emitLine("for file in range(int("+self.curToken.text+")):")
+                self.emitter.emitLine("for file in "+self.curToken.text+":")
                 self.emitter.emitTab("")
-                self.emitter.emitLine("file_path,  rep = input().split()")
+                self.emitter.emitLine("print(\"Number of frames {} is shown\".format(file))")
+                self.emitter.emitTab("")
+                self.emitter.emitLine("rep = int(input())")
                 self.emitter.emitTab("")
                 self.emitter.emitLine("for _ in range(int(rep)):")
                 self.emitter.emitTab("")
                 self.emitter.emitTab("")
-                self.emitter.emitLine("img = cv2.imread(file_path)")
+                self.emitter.emitLine("img = cv2.imread(file)")
                 self.emitter.emitTab("")
                 self.emitter.emitTab("")
                 self.emitter.emitLine("height, width, layers = img.shape")

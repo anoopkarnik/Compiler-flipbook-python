@@ -1,4 +1,11 @@
-PRINT "No of files :"
-INTINPUT files
+PRINT "Type the no of files"
+INTINPUT fileno
+LET i = 0
+LIST files
+PRINT "Type all the file locations :"
+WHILE i < fileno REPEAT
+    STRINPUT file
+    LISTADD files file
+    LET i = i + 1
+ENDWHILE
 CREATE FILE files
-

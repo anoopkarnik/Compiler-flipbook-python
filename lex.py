@@ -154,6 +154,7 @@ class TokenType(enum.Enum):
     # Keywords.
     LIST = 101
     LISTINPUT = 102
+    LISTADD = 114
     PRINT = 103
     INTINPUT = 104
     LET = 105

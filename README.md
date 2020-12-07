@@ -43,30 +43,32 @@
 
      ii) 12 (example value to give when asked for number of files from flipbook2 folder we got from google drive link)
      
-     iii) flipbook2/1.jpg 5 (example values to give for the 1st image and frames it occupies)
+     iii) flipbook2/1.jpg (example values to give for the 1st image and frames it occupies)
      
-     iv) flipbook2/2.jpg 15 (example values to give for the 2nd image and frames it occupies)
+     iv) flipbook2/2.jpg (example values to give for the 2nd image and frames it occupies)
      
-      v) flipbook2/3.jpg 10 (example values to give for the 3rd image and frames it occupies)
+      v) flipbook2/3.jpg (example values to give for the 3rd image and frames it occupies)
       
-     vi) flipbook2/4.jpg 6 (example values to give for the 4th image and frames it occupies)
+     vi) flipbook2/4.jpg (example values to give for the 4th image and frames it occupies)
      
-     vii) flipbook2/5.jpg 2 (example values to give for the 5th image and frames it occupies)
+     vii) flipbook2/5.jpg (example values to give for the 5th image and frames it occupies)
      
-     Viii) flipbook2/6.jpg 5 (example values to give for the 6th image and frames it occupies)
+     Viii) flipbook2/6.jpg (example values to give for the 6th image and frames it occupies)
      
-     ix) flipbook2/7.jpg 15 (example values to give for the 7th image and frames it occupies)
+     ix) flipbook2/7.jpg (example values to give for the 7th image and frames it occupies)
      
-      x) flipbook2/8.jpg 10 (example values to give for the 8th image and frames it occupies)
+      x) flipbook2/8.jpg (example values to give for the 8th image and frames it occupies)
       
-     xi) flipbook2/9.jpg 6 (example values to give for the 9th image and frames it occupies)
+     xi) flipbook2/9.jpg (example values to give for the 9th image and frames it occupies)
      
-     xii) flipbook2/10.jpg 2 (example values to give for the 10th image and frames it occupies)
+     xii) flipbook2/10.jpg (example values to give for the 10th image and frames it occupies)
      
-     xiii) flipbook2/11.jpg 6 (example values to give for the 11th image and frames it occupies)
+     xiii) flipbook2/11.jpg (example values to give for the 11th image and frames it occupies)
      
-     xiv) flipbook2/12.jpg 2 (example values to give for the 12th image and frames it occupies)
+     xiv) flipbook2/12.jpg (example values to give for the 12th image and frames it occupies)
+
+     xv) For each of the above images give its frame length when asked in terminal
      
-     viii) 1 (example value to give when asked for frame rate per second)
+     xvi) 1 (example value to give when asked for frame rate per second)
 
 
